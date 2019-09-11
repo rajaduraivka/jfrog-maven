@@ -5,7 +5,7 @@ node {
     
     
     stage ('Checkout & Build') {
-        git url: 'https://github.com/itrainarticle370/jfrog-maven.git'
+        git url: 'https://github.com/rajaduraivka/jfrog-maven.git'
     }
  
     stage ('Unit Test') {
