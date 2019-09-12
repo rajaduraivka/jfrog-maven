@@ -5,7 +5,7 @@ node {
     
     
     stage ('Checkout & Build') {
-        git url: 'https://github.com/rajaduraivka/jfrog-maven.git'
+        git credentialsId: '6fc1abe4-f4c7-4338-9085-1c7075dc3a4e', url: 'https://github.com/rajaduraivka/jfrog-maven.git'
     }
  
     stage ('Unit Test') {
